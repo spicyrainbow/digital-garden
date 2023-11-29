@@ -9,11 +9,22 @@
     @font-face {
         src: url(GWIBBLE_.TTF);
         font-family: "Gwibble";
+      
+    
       }
-
+  
+		    @font-face {
+       src: url(WhitePigeon-BW6w5.ttf);
+      font-family: "Body";
+      }
+  
+  .text{
+     font-family: "Body", serif;
+  }
       * {
         box-sizing: border-box;
       }
+  
 
    h1 {
         color: hsl(246, 17%, 18%);
@@ -39,6 +50,7 @@
     padding-left: 50px;
     text-align: left;
         max-width: 600px;
+    font-family: "Body", serif;
   }
   
   .Lucy {
@@ -58,8 +70,8 @@
   .p1 {
      font-size: 30px;
     position: absolute;
-        top: 700px;
-        left: 10vw;
+        top: 850px;
+        left: 105px;
     padding-right: 50px;
     padding-left: 50px;
     text-align: left;
@@ -75,7 +87,7 @@
   .leotrash {
     position: absolute;
         height: 350px;
-        top: 900px;
+        top: 1000px;
     left: 400px;
         align-items: right;
   }
@@ -83,13 +95,65 @@
   .disney-trash {
     position: absolute;
         height: 350px;
-        top: 900px;
+        top: 1000px;
     left: 155px;
         align-items: right;
   }
   
+  .p2{
+   font-size: 30px;
+    position: absolute;
+        top: 1100px;
+        right: 105px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: right;
+        max-width: 600px;
+  }
     
-    
+  .p3{
+    font-size: 30px;
+    position: absolute;
+        top: 1550px;
+        left: 105px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: left;
+        max-width: 600px;
+  }
+  
+  .toomuchtrash{
+     position: absolute;
+        height: 400px;
+        top: 1550px;
+    right: 240px;
+        align-items: right;
+  }
+  
+  .trash-bag{
+     position: absolute;
+        height: 400px;
+        top: 2200px;
+    left: 25vw;
+        align-items: center;
+  }
+  
+  .p4{
+    position: absolute;
+    font-size: 30px;
+        height: 400px;
+        top: 2600px;
+    left: 20vw;
+        align-items: center;
+  }
+  
+  button{
+    position: absolute;
+     height: 50px;
+        top: 2700px;
+    left: 42vw;
+        align-items: center;
+  }
     </style>
     
       
@@ -109,15 +173,15 @@ But most importantly...
     <img class="Lucy part1" src="Lucy.png" alt="Lucy">
     
     
-    <div class="p1 part2">
+    <div class="p1 part2 text">
    <p>Lucy LOVES collecting trash
 no matter where she is in the world. </p>
 </div>
-    <img class="trash-can part2" src="trash can.png" alt="trash can">
+<!--     <img class="trash-can part2" src="trash can.png" alt="trash can">
+     -->
     
     
-    
-    <div class="p2 part3">
+    <div class="p2 part3 text">
    <p>
 However, her room is pilling up and she literally almost had to pay extra fees for storage space! 
 We need a solution... </p>
@@ -125,17 +189,24 @@ We need a solution... </p>
      <img class="leotrash part3" src="leotrash.JPG" alt="leotrash">
      <img class="disney-trash part3" src="disney trash.jpg" alt="disney-trash">
     
-    <div class="p2">
+    <div class="p3 text">
    <p>
-Lucy is struggling with throwing away her trash, but perhaps the solution to her struggles is to preserve them somewhere- and then she won't be so depressed!</p>
+Lucy is struggling with throwing away her trash, but perhaps the solution to her struggles is to preserve them somewhere-and then she won't be so depressed!</p>
 </div>
+    
 
-     
+    <video class="toomuchtrash" controls>
+      <source src="toomuchtrash.MP4" type="video/mp4"> 
+   </video>
    
      <img class="trash-bag img-item" src="trash bag.png" alt="trash-bag">
   
+    <div class="p4 text">
+   <p>
+So now, Lucy wants to invite you to her trash hunt!</p>
+</div>
     
-    
+    <button>click to say hi to Lucy</button> 
     
     
     
